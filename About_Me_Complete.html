@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me Asim Puri</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <script src="https://kit.fontawesome.com/fc58af4fa8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav class="navbar">
+            <div>
+                <img src="Asim_Logo.jpg" class="logo">
+            </div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="progress-bar">
+            <div class="progress-line"></div>
+        </div>
+        <div class="header-text">
+            <p>IT Help Desk Technician Intern</p>
+            <h1>Hi, I'm <span>Asim</span><br>Puri</h1>
+        </div>
+    </div>
+</div>
+<!--about section-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Asim_Puri_Headshot.jpeg" alt=""> <!-- Need new image for about me pic-->
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Passionate about the intersection of technology and business, I am a motivated IT professional currently pursuing a Bachelor of Science degree in Information Technology Security, Info Tech Management at Campbell University. As a recent graduate from Wake Tech Community College with an AAS degree in Cloud Infrastructure, I am eager to apply my skills and knowledge to contribute towards the success of organizations in the rapidly evolving digital landscape.</p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Development</span><br>Applied my knowledge of basic HTML,<br> JavaScript and CSS to creat this website</li>
+                    <li><span>Python</span><br>Applied by knowledge to create tic tac toe</li>
+                    <li><span>Computer Maintenance</span><br>Used the skilled I gained as a (paid) IT Help <br> Desk Technicial Intern to custom build a PC</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Falls of Neuse Management LLC</span><br> IT Help Desk Technician Intern</li>
+                    <li><span>Campbell University</span><br>IT Digital Media</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Campbell University – Buies Creek, NC</span><br>B.S. Information Technology – Technology and Management <br>Anticipated graduation 08/2025</li>
+                    <li><span>Wake Technical Community College - Raleigh, NC</span><br>AAS Information Technology - Cloud Infrastructure <br>Graduation: 2023</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Services section-->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title sub-title2">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>With my skill in HTML, JS and CSS I can create a website</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h2>AWS Cloud</h2>
+                <p>(Comming soon) I can host your website on AWS</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>With my knowledge in Python I can write some scripts</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Portfolio section-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Asim_Logo.jpg" alt="">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>Using my skills in HTML, JS and CSS I Created this Website.</p>
+                    <a href="#"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="AWS.png" alt="">
+                <div class="layer">
+                    <h3>AWS Web Hosting</h3>
+                    <p>(Comming Soon) Using my skill in AWS I created my own domain and hosted this site on AWS.</p>
+                    <a href="#"><i class="fa-brands fa-aws"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Python_Logo.png" alt="">
+                <div class="layer">
+                    <h3>Tic Tac Toe</h3>
+                    <p>(Comming Soon) Using my skill in Python i created a tic tac toe game</p>
+                    <a href="#"><i class="fa-brands fa-python"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact section-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title sub-title2">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>asimpuri2012@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>720-XXX-XXXX</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Uhhseam"><i class="fa-brands fa-github"></i></a> <!--Add links here-->
+                    <a href="https://www.linkedin.com/in/asimpuri"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:asimpuri2012@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <a href="Asim_Puri_Resume.pdf" download class="btn">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p><img src="Logo_Icon_T.png" alt="" width="25"> Created by Asim Puri</p>
+</div>
+</div>
+
+
+<!--Put scrypt in head section-->
+<script> 
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    } 
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-100px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxHi5XRytf1Jif1Sqdk_LM9-grPkGthzUXfLPLHwvIsffxnbc8O4Ng8Cd7v-HqZtfkl9w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = '<img src="Thank_you.jpg" alt="Thank you Jpg">';
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },15000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script type="text/javascript">
+    let progressBar = document.querySelector('.progress-line');
+
+    window.addEventListener('scroll',function(){
+        let pageScrolled = document.documentElement.scrollTop;
+        let height = document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+        progressBar.style.width = `${(pageScrolled/height)*100}%`;
+    });
+
+</script>
+</body>
+</html>
